@@ -1,0 +1,20 @@
+{
+  "name": "webkit-cssui-justify",
+  "version": "0.0.0",
+  "description": "Webkit css ui module for justify skills.",
+  "homepage": "https://github.com/afeiship/webkit-cssui-justify",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "yargs": "^4.7.1"
+  }
+}

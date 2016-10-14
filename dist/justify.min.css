@@ -1,0 +1,1 @@
+.justify{vertical-align:top;text-align:justify}.justify>*{text-align:left;vertical-align:top;display:inline-block}.justify:after{display:inline-block;content:'\200b';overflow:hidden;height:0;width:100%}

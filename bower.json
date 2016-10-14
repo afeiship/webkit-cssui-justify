@@ -1,0 +1,29 @@
+{
+  "name": "webkit-cssui-justify",
+  "description": "Webkit css ui module for justify skills.",
+  "main": [
+    "dist/justify.css",
+    "dist/justify.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "justify"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}
