@@ -1,7 +1,6 @@
 /*webkit-sassui-justify Start*/
 .webkit-sassui-justify {
   text-align: justify;
-  font-size: 0;
   /* fully justify all items in browsers other than IE */
   /*
   Attention:IE7 don't need the solution when you use span/a/input and the other default inline element.

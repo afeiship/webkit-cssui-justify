@@ -24,9 +24,9 @@
 .justify-demo>*{
   /*
   1.Child elements must by original inline elements.
-  2.Child elements must have font-size.
+  2.Child elements must have height.(If NOT,the box will has a hidden height)
   */
-  font-size: 14px;
+  height:24px;
 }
 </style>
 <div class="webkit-sassui-justify justify-demo">
