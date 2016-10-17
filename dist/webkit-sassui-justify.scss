@@ -1,0 +1,28 @@
+/*webkit-sassui-justify Start*/
+// https://kristinlbradley.wordpress.com/2011/09/15/cross-browser-css-justified-block-list/
+.webkit-sassui-justify {
+  text-align: justify;
+  font-size: 0;
+  & > * {
+    text-align: left;
+    /* customize to suit */
+    display: inline-block;
+  }
+  /* fully justify all items in browsers other than IE */
+  /*
+  Attention:IE7 don't need the solution when you use span/a/input and the other default inline element.
+  */
+  &:after {
+    content:'';
+  	display: inline-block;
+  	width: 100%;
+  }
+}
+
+@mixin webkit-sassui-justify($inFontSize:12px){
+  @extend .webkit-sassui-justify;
+  & > *{
+    font-size: $inFontSize;
+  }
+}
+/*justify End*/

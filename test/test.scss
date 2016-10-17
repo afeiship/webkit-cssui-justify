@@ -1,0 +1,28 @@
+@import '../dist/webkit-sassui-justify.scss';
+//global mini reset:
+* {
+  margin: 0;
+  padding: 0;
+}
+
+hr{
+  // margin: 10px auto;
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto 0;
+}
+
+.justify-demo {
+  //Child must have font-size:
+  @include webkit-sassui-justify(14px);
+  >*{
+    width: 24px;
+    line-height: 24px;
+    text-align: center;
+    background: #333;
+    color: white;
+    border-radius: 50%;
+  }
+}

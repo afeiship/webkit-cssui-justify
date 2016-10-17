@@ -18,6 +18,7 @@
         collapseBooleanAttributes: false,
         collapseWhitespace: true,
         removeComments:true,
+        removeTagWhitespace:true,
         ignoreCustomComments: [
           /^\s+justify-start/,
           /^\s+justify-end/,

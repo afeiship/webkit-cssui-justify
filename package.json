@@ -7,6 +7,9 @@
     "name": "afei",
     "email": "1290657123@qq.com"
   },
+  "scripts":{
+    "test":"gulp && gulp test && gulp htmlmin"
+  },
   "license": "MIT",
   "devDependencies": {
     "del": "^2.2.1",
