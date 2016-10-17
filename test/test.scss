@@ -29,4 +29,12 @@ hr{
 
 .justify-demo-use-css{
   height:24px;
+  >*{
+    width: 24px;
+    line-height: 24px;
+    text-align: center;
+    background: #f60;
+    color: white;
+    border-radius: 50%;
+  }
 }
