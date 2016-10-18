@@ -25,6 +25,14 @@ hr {
   border: 1px solid #f00;
 }
 
+.test-element-b-span{
+  >span{
+    width:30%;
+    margin-bottom: 10px;
+    min-height: 80px;
+  }
+}
+
 .justify-text-demo{
   > * {
     width: 24px;
