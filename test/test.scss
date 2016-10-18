@@ -1,11 +1,11 @@
-@import '../dist/webkit-sassui-justify.scss';
-//global mini reset:
+@import '../dist/webkit-sassui-justify.scss'; //global mini reset:
+
 * {
   margin: 0;
   padding: 0;
 }
 
-hr{
+hr {
   // margin: 10px auto;
 }
 
@@ -14,10 +14,13 @@ hr{
   margin: 50px auto 0;
 }
 
-.justify-demo {
-  //Child must have font-size:
-  @include webkit-sassui-justify(14px);
-  >*{
+.justify-text-demo {
+  margin: 0 auto;
+  border: 1px solid #f00;
+}
+
+.justify-text-demo{
+  > * {
     width: 24px;
     line-height: 24px;
     text-align: center;
@@ -27,9 +30,24 @@ hr{
   }
 }
 
-.justify-demo-use-css{
-  height:24px;
-  >*{
+.justify-demo {
+  //Child must have font-size:
+  @include webkit-sassui-justify(14px);
+
+  > * {
+    width: 24px;
+    line-height: 24px;
+    text-align: center;
+    background: #333;
+    color: white;
+    border-radius: 50%;
+  }
+}
+
+.justify-demo-use-css {
+  height: 24px;
+
+  > * {
     width: 24px;
     line-height: 24px;
     text-align: center;

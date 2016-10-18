@@ -19,6 +19,13 @@
   width: 100%;
 }
 
+.justify-text {
+  text-align: justify;
+  -moz-text-align-last: justify;
+  text-align-last: justify;
+  text-justify: inter-ideograph;
+}
+
 /*justify End*/
 * {
   margin: 0;
@@ -28,6 +35,20 @@
 .container {
   width: 400px;
   margin: 50px auto 0;
+}
+
+.justify-text-demo {
+  margin: 0 auto;
+  border: 1px solid #f00;
+}
+
+.justify-text-demo > * {
+  width: 24px;
+  line-height: 24px;
+  text-align: center;
+  background: #333;
+  color: white;
+  border-radius: 50%;
 }
 
 .justify-demo {

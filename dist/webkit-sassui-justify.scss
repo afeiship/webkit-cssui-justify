@@ -18,6 +18,13 @@
   }
 }
 
+.justify-text{
+  text-align: justify;
+  -moz-text-align-last: justify;
+  text-align-last: justify;
+  text-justify: inter-ideograph;
+}
+
 @mixin webkit-sassui-justify($inFontSize:12px){
   @extend .webkit-sassui-justify;
   font-size: 0;
@@ -25,4 +32,7 @@
     font-size: $inFontSize;
   }
 }
+
+
+
 /*justify End*/
