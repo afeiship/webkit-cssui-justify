@@ -19,7 +19,7 @@
   width: 100%;
 }
 
-.webkit-sassui-justify-text {
+.webkit-sassui-justify-inline {
   text-align: justify;
   -moz-text-align-last: justify;
   text-align-last: justify;
