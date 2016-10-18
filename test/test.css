@@ -37,6 +37,10 @@
   margin: 50px auto 0;
 }
 
+.place-img img {
+  vertical-align: top;
+}
+
 .justify-text-demo {
   margin: 0 auto;
   border: 1px solid #f00;

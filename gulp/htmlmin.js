@@ -11,7 +11,7 @@
 
   //test
   gulp.task('htmlmin', function() {
-    return gulp.src('test/webkit-sassui-justify.html')
+    return gulp.src('test/test.html')
       .pipe($.htmlmin({
         removeEmptyAttributes: true,
         removeAttributeQuotes: true,
