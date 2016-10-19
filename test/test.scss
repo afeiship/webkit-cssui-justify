@@ -10,9 +10,11 @@ hr {
 }
 
 .webkit-sassui-justify-lmr-demo{
-  @include webkit-sassui-justify-lmr();
+  @include webkit-sassui-justify-table-lmr();
 }
-
+.webkit-flex-justify-demo{
+  @include webkit-sassui-justify-flex-lmr;
+}
 .t3-text{
   font-size: 12px;
   color:#999;

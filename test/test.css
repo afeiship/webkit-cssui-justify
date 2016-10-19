@@ -1,5 +1,5 @@
 /*webkit-sassui-justify Start*/
-.webkit-sassui-justify, .justify-demo {
+.webkit-sassui-justify, .justify-demo2, .justify-demo {
   text-align: justify;
   /* fully justify all items in browsers other than IE */
   /*
@@ -7,13 +7,13 @@
   */
 }
 
-.webkit-sassui-justify > *, .justify-demo > * {
+.webkit-sassui-justify > *, .justify-demo2 > *, .justify-demo > * {
   text-align: left;
   /* customize to suit */
   display: inline-block;
 }
 
-.webkit-sassui-justify:after, .justify-demo:after {
+.webkit-sassui-justify:after, .justify-demo2:after, .justify-demo:after {
   content: '';
   display: inline-block;
   width: 100%;
@@ -54,6 +54,17 @@
   text-align: right;
 }
 
+.webkit-flex-justify-demo {
+  display: -webkit-box;
+  display: box;
+  -webkit-box-pack: justify;
+}
+
+.webkit-flex-justify-demo > * {
+  display: -webkit-box;
+  display: box;
+}
+
 .t3-text {
   font-size: 12px;
   color: #999;
@@ -90,6 +101,14 @@
   background: #333;
   color: white;
   border-radius: 50%;
+}
+
+.justify-demo2 {
+  font-size: 0;
+}
+
+.justify-demo2 > * {
+  font-size: 14px;
 }
 
 .justify-demo {

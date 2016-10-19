@@ -1,7 +1,9 @@
 /*webkit-sassui-justify Start*/
 // https://kristinlbradley.wordpress.com/2011/09/15/cross-browser-css-justified-block-list/
+
 .webkit-sassui-justify {
   text-align: justify;
+
   & > * {
     text-align: left;
     /* customize to suit */
@@ -12,46 +14,54 @@
   Attention:IE7 don't need the solution when you use span/a/input and the other default inline element.
   */
   &:after {
-    content:'';
-  	display: inline-block;
-  	width: 100%;
+    content: '';
+    display: inline-block;
+    width: 100%;
   }
 }
-
 // IMG OR Text
-.webkit-sassui-justify-inline{
+.webkit-sassui-justify-inline {
   text-align: justify;
   -moz-text-align-last: justify;
   text-align-last: justify;
   text-justify: inter-ideograph;
 }
-
-@mixin webkit-sassui-justify($inFontSize:12px){
-  @extend .webkit-sassui-justify;
+@mixin webkit-sassui-justify($inFontSize:12px) {
+   @extend .webkit-sassui-justify;
   font-size: 0;
-  & > *{
+
+  & > * {
     font-size: $inFontSize;
   }
 }
-
-@mixin webkit-sassui-justify-lmr {
+@mixin webkit-sassui-justify-table-lmr {
   display: table;
-  width:100%;
-  >*{
+  width: 100%;
+
+  > * {
     display: table-cell;
-    width:1%;
+    width: 1%;
   }
-  >.left{
+
+  > .left {
     text-align: left;
   }
-  >.middle{
+
+  > .middle {
     text-align: center;
   }
-  >.right{
+
+  > .right {
     text-align: right;
   }
 }
-
-
-
+@mixin webkit-sassui-justify-flex-lmr {
+  display: -webkit-box;
+  display: box;
+  -webkit-box-pack: justify;
+  >*{
+    display: -webkit-box;
+    display: box;
+  }
+}
 /*justify End*/
