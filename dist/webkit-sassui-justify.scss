@@ -20,6 +20,7 @@
   }
 }
 // IMG OR Text
+
 .webkit-sassui-justify-inline {
   text-align: justify;
   -moz-text-align-last: justify;
@@ -59,9 +60,19 @@
   display: -webkit-box;
   display: box;
   -webkit-box-pack: justify;
-  >*{
+
+  > * {
     display: -webkit-box;
     display: box;
+  }
+}
+@mixin webkit-sassui-justify-flex-vertical {
+  @include display-box;
+  @include box-pack(justify);
+  @include box-orient(vertical);
+
+  > *[flex]{
+    @include box-flex(1);
   }
 }
 /*justify End*/
