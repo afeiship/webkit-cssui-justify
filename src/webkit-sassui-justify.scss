@@ -34,6 +34,24 @@
   }
 }
 
+@mixin webkit-sassui-justify-lmr {
+  display: table;
+  width:100%;
+  >*{
+    display: table-cell;
+    width:1%;
+  }
+  >.left{
+    text-align: left;
+  }
+  >.middle{
+    text-align: center;
+  }
+  >.right{
+    text-align: right;
+  }
+}
+
 
 
 /*justify End*/

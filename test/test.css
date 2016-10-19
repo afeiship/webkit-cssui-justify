@@ -32,6 +32,37 @@
   padding: 0;
 }
 
+.webkit-sassui-justify-lmr-demo {
+  display: table;
+  width: 100%;
+}
+
+.webkit-sassui-justify-lmr-demo > * {
+  display: table-cell;
+  width: 1%;
+}
+
+.webkit-sassui-justify-lmr-demo > .left {
+  text-align: left;
+}
+
+.webkit-sassui-justify-lmr-demo > .middle {
+  text-align: center;
+}
+
+.webkit-sassui-justify-lmr-demo > .right {
+  text-align: right;
+}
+
+.t3-text {
+  font-size: 12px;
+  color: #999;
+}
+
+.t3-text > span {
+  text-align: left;
+}
+
 .container {
   width: 400px;
   margin: 50px auto 0;
