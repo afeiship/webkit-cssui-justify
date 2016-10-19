@@ -55,7 +55,10 @@ hr {
     border-radius: 50%;
   }
 }
-
+.justify-demo2 {
+  //Child must have font-size:
+  @include webkit-sassui-justify(14px);
+}
 .justify-demo {
   //Child must have font-size:
   @include webkit-sassui-justify(14px);
