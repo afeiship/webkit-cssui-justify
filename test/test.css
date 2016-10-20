@@ -1,5 +1,65 @@
 /*webkit-sassui-justify Start*/
-.webkit-sassui-justify, .justify-demo2, .justify-demo {
+/*animation Start*/
+/*animation End*/
+/*appearance Start*/
+/*appearance End*/
+/*backface-visibility Start*/
+/*backface-visibility End*/
+/*background Start*/
+/*background End*/
+/*border-radius Start*/
+/*border-radius End*/
+/*box-shadow Start*/
+/*box-shadow End*/
+/*box-sizing Start*/
+/*box-sizing End*/
+/*clearfix Start*/
+/*clearfix End*/
+/*content-columns Start*/
+/*content-columns End*/
+/*dib-grid Start*/
+/*dib-grid End*/
+/*filter Start*/
+/*filter End*/
+/*flexbox Start*/
+/*flexbox End*/
+/*flip Start*/
+/*flip End*/
+/*height Start*/
+/*height End*/
+/*margin Start*/
+/*margin End*/
+/*padding Start*/
+/*padding End*/
+/*placeholder Start*/
+/*placeholder End*/
+/*size Start*/
+/*size End*/
+/*tap-highlight-transparent Start*/
+/*tap-highlight-transparent End*/
+/*text-size-adjust Start*/
+/*text-size-adjust End*/
+/*touch-callout Start*/
+/*touch-callout End*/
+/*transformation Start*/
+/*transformation End*/
+/*transition Start*/
+/*transition End*/
+/**
+ * @desc  triangle
+ * @param $width
+ * @param $height
+ * @param $color
+ * @param $direction: top bottom left right
+ */
+/**
+ * @desc Use svg
+ */
+/*user-select Start*/
+/*user-select End*/
+/*width Start*/
+/*width End*/
+.webkit-sassui-justify-dib, .justify-demo2, .justify-demo {
   text-align: justify;
   /* fully justify all items in browsers other than IE */
   /*
@@ -7,13 +67,13 @@
   */
 }
 
-.webkit-sassui-justify > *, .justify-demo2 > *, .justify-demo > * {
+.webkit-sassui-justify-dib > *, .justify-demo2 > *, .justify-demo > * {
   text-align: left;
   /* customize to suit */
   display: inline-block;
 }
 
-.webkit-sassui-justify:after, .justify-demo2:after, .justify-demo:after {
+.webkit-sassui-justify-dib:after, .justify-demo2:after, .justify-demo:after {
   content: '';
   display: inline-block;
   width: 100%;
@@ -24,6 +84,24 @@
   -moz-text-align-last: justify;
   text-align-last: justify;
   text-justify: inter-ideograph;
+}
+
+.webkit-sassui-justify-flex, .webkit-flex-justify-demo, .webkit-sassui-justify-flex-y1 {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.webkit-sassui-justify-flex, .webkit-flex-justify-demo, .webkit-sassui-justify-flex-y1,
+.webkit-sassui-justify-flex > *, .webkit-flex-justify-demo > *, .webkit-sassui-justify-flex-y1 > * {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 /*justify End*/
@@ -52,17 +130,6 @@
 
 .webkit-sassui-justify-lmr-demo > .right {
   text-align: right;
-}
-
-.webkit-flex-justify-demo {
-  display: -webkit-box;
-  display: box;
-  -webkit-box-pack: justify;
-}
-
-.webkit-flex-justify-demo > * {
-  display: -webkit-box;
-  display: box;
 }
 
 .t3-text {
@@ -139,4 +206,23 @@
   background: #f60;
   color: white;
   border-radius: 50%;
+}
+
+.webkit-sassui-justify-flex-y1 {
+  height: 300px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.webkit-sassui-justify-flex-y1 > * {
+  border: 1px solid #000;
 }

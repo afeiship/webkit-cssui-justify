@@ -10,10 +10,10 @@ hr {
 }
 
 .webkit-sassui-justify-lmr-demo{
-  @include webkit-sassui-justify-table-lmr();
+  @include webkit-sassui-justify-table();
 }
 .webkit-flex-justify-demo{
-  @include webkit-sassui-justify-flex-lmr;
+  @include webkit-sassui-justify-flex;
 }
 .t3-text{
   font-size: 12px;
@@ -59,11 +59,11 @@ hr {
 }
 .justify-demo2 {
   //Child must have font-size:
-  @include webkit-sassui-justify(14px);
+  @include webkit-sassui-justify-dib(14px);
 }
 .justify-demo {
   //Child must have font-size:
-  @include webkit-sassui-justify(14px);
+  @include webkit-sassui-justify-dib(14px);
 
   > * {
     width: 24px;
@@ -85,5 +85,14 @@ hr {
     background: #f60;
     color: white;
     border-radius: 50%;
+  }
+}
+
+
+.webkit-sassui-justify-flex-y1{
+  height:300px;
+  @include webkit-sassui-justify-flex(y);
+  >*{
+    border: 1px solid #000;
   }
 }
