@@ -1,4 +1,4 @@
-# webkit-sassui-justify
+# webkit-sassui-layout-justify
 > Webkit sass ui module for justify skills.
 
 ## usage:

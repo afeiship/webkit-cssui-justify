@@ -1,7 +1,7 @@
 {
-  "name": "webkit-cssui-justify",
+  "name": "webkit-sassui-layout-justify",
   "version": "0.0.0",
-  "description": "Webkit css ui module for justify skills.",
+  "description": "Webkit sass ui module for justify skills.",
   "homepage": "https://github.com/afeiship/webkit-cssui-justify",
   "author": {
     "name": "afei",
