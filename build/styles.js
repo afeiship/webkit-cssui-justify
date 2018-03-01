@@ -19,7 +19,8 @@
       .pipe($.rename({
         extname:'.min.css'
       }))
-      .pipe(gulp.dest('dist'));
+      .pipe(gulp.dest('dist'))
+      .pipe(gulp.dest('docs/css'));
   });
 
 
